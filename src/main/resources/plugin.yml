@@ -1,0 +1,14 @@
+name: PortableCrafting
+version: '${version}'
+main: link.harryw.portablecrafting.PortableCrafting
+authors: [ EnderTweaks ]
+description: A plugin to open a crafting table by right-clicking it in your hand.
+commands:
+  pcreload:
+    description: Reloads the config for PortableCrafting
+    permission: portablecrafting.reload
+permissions:
+  portablecrafting.reload:
+    description: Allows you to use /pcreload
+  portablecrafting.use:
+    description: Allows you to right-click a crafting table in your hand to open it
